@@ -1,0 +1,15 @@
+body{
+  width: 70%;
+  margin: auto;
+}
+
+@font-face{
+  font-family: "Chomsky";
+  src: local("Chomsky"),
+    url("./fonts/Chomsky.otf") format('truetype');
+}
+
+@font-face {
+  font-family: "OldNewspaper";
+  src: url('./fonts/OldNewspaperTypes.ttf') format('truetype');
+}

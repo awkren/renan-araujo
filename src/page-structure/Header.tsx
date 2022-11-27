@@ -3,18 +3,20 @@ import '../page-style/Header.css'
 
 const Header = () => {
   return (<>
-    <div className='flex flex-row text-center justify-evenly'>
+    <div className='flex flex-row'>
       <div className='flex justify-center items-center'>
-        <p className='w-[50%]'>this is a journal mate, im writing things that doesnt make sense here lol just to fill empty spaces</p>
+        <p className='w-[80%] text-[.7rem] text-center'><em className='font-bold not-italic'>this is some random text,</em><br></br> if i were you, i wouldnt bother reading this, but if you want go aheada asdsad asdas dsa, keep up if you want </p>
       </div>
-      <div>
-        <p className='text-[3rem]'>Front-End Developer</p>
+      <div id=''className='flex justify-center items-center w-[100%] text-center'>
+        <p className='text-[4.4rem] font-[Chomsky]'>The Front-End Developer</p>
       </div>
-      <div className='flex justify-center items-center'> 
-        <p className='w-[50%]'>same thing here lol i dont know what to write, but i gotta write something to fill spaces man :)</p>
+      <div className='flex justify-center items-center '> 
+        <p className='w-[50%] text-[.7rem] text-center border-2 border-black p-1'>this is some random text, if i were you, i wouldnt bother reading this, but if you want go aheada asdsad asdas dsa dsadasdasdasdasdasdas</p>
       </div>
     </div>
-      <div className='h-[1.2rem] bg-black'></div>
+      <div className='h-[.2rem] bg-black'></div>
+      <p className='text-[1rem]'>adasdasdsad</p>
+      <div className='h-[.2rem] bg-black'></div>
   </>)
 }
 
