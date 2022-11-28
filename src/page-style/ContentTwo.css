@@ -1,0 +1,11 @@
+/* *{border:1px solid red;} */
+
+.can-i-do{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.projects{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

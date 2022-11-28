@@ -38,7 +38,7 @@ const Content = () => {
         <p className='text-[.9rem] font-semibold text-center'>The Power of Effort</p>
         <p className='text-[.8rem]'>Effort teaches us that we can do more than we thought. We learn new skills and abilities when we take the time to put in consistent effort. Every new success that we achieve through our efforts <em className='not-italic font-semibold'>increases our confidence in ourselves and our abilities.</em> Effort keeps ur focuses on success.</p>
         <p className='text-[.8rem]'>If our efforts lead us further away from our goal, then we need to change our strategy. If our efforts brings us closer to our goals, we can double down with our effort.</p>
-        <p className='text-[.8rem]'>As your effort brings you closer to your goal, your motivation and willpower increase as you can taste victory.</p>
+        {/* <p className='text-[.8rem]'>As your effort brings you closer to your goal, your motivation and willpower increase as you can taste victory.</p> */}
         <p className='text-[.8rem]'>Whatever your goal, plan to put in the consistent effort needed to achieve success.</p>
       </div>
     </div>
