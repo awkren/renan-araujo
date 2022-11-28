@@ -10,3 +10,9 @@
   grid-template-columns: 1fr 1fr;
   gap:.5rem
 }
+
+#gray-img{
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+}
