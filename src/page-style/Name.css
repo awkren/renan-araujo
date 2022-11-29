@@ -1,0 +1,13 @@
+@media screen and (max-width:940px){
+  #name-container{
+    font-size: 3rem;
+  }
+  #name-text{
+    margin-top: 1rem;
+    text-decoration-thickness: 1px;
+    text-underline-offset: .3rem;
+  }
+  #sub-title-text{
+    margin-top: .7rem;
+  }
+}

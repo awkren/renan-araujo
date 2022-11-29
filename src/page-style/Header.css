@@ -1,1 +1,22 @@
 /* *{border:1px solid red;} */
+
+@media screen and (max-width:940px){
+  #left-title-text, #right-title-text{
+    display: none;
+  }
+  #title-div{
+    text-align: center;
+    margin: auto;
+  }
+  #title-newspaper{
+    font-size: 2rem;
+  }
+  #below-title{
+    display: none; 
+  }
+  #text-hidden{
+    display: flex;
+    font-size: .7rem;
+    justify-content: center;
+  }
+}

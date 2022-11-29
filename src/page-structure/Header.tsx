@@ -5,19 +5,18 @@ const Header = () => {
   return (<>
 
     <div className='flex flex-row justify-between'>
-      <div className='w-[20%]'>
+      <div id='left-title-text' className='w-[20%]'>
         <p className='text-right'>this is some random text, if i were you, i wouldnt bother reading this, but if you want go aheada asdsad asdas dsa dsadasdasdasdasdasdas</p>
       </div>
-      <div id=''className='flex text-center'>
-        <p className='text-[5rem] font-[Chomsky]'>The Front-End Developer</p>
+      <div id='title-div' className='flex text-center'>
+        <p id='title-newspaper' className='text-[5rem] font-[Chomsky]'>The Front-End Developer</p>
       </div>
-      <div className='w-[20%]'> 
+      <div id='right-title-text' className='w-[20%]'> 
         <p className=''>this is some random text, if i were you, i wouldnt bother reading this, but if you want go aheada asdsad asdas dsa dsadasdasdasdasdasdas</p>
       </div>
     </div>
-
-      <div className='h-[.2rem] bg-black'></div>
-      <div className='flex flex-row justify-evenly'>
+    <div className='h-[.2rem] bg-black'></div>
+    <div id='below-title' className='flex flex-row justify-evenly'>
       <p className=''>Rio de Janeiro</p>
       <p>Brazil</p>
       <p>Flamengo</p>
@@ -26,8 +25,9 @@ const Header = () => {
       <p>Funk</p>
       <p>Rap</p>
       <p>Country Music</p>
-      </div>
-      <div className='h-[.2rem] bg-black'></div>
+    </div>
+    <p id='text-hidden' className='font-[OldNewspaper] hidden'>Est. Rio de Janeiro, Brazil - Since 2000</p>
+    <div className='h-[.2rem] bg-black'></div>
   </>)
 }
 
