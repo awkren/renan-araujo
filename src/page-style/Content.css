@@ -3,3 +3,16 @@
 }
 
 /* *{border:1px solid red;} */
+
+@media screen and (max-width:940px){
+  #content{
+    grid-template-columns: 1fr;
+  }
+  #no-border-one{
+    border: none;
+  }
+  #div-end-first{
+    width: 100%;
+    height: 3px;
+  }
+}

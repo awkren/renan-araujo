@@ -11,16 +11,22 @@ const Content = () => {
         <p className='text-[.8rem]'>It's good because it improves your <em className='font-semibold not-italic'>focus, memory, empathy, and comunication skills.</em> It can redeuce stress, improve your mental health, and help you live longer. Reading also allows you to learn new things to help you succeed in your work and relationships.</p>
         <p className='text-[.8rem] text-right'><em className=''>~quoted from Oberlo</em></p>
       </div>
-      <div className='border-r-[2px] border-black ml-[.4rem] mr-[.4rem]'>
+      <div id='no-border-one' className='border-r-[2px] border-black ml-[.4rem] mr-[.4rem]'>
         <div className='bg-black h-[1px] w-[10rem] m-auto'></div>
-        <p className='text-center font-bold text-[1.2rem] italic'>What is he known for?</p>
+
+        <div className='count-one'>
+        <p className='text-center font-bold text-[1.2rem] italic'>What is Renan known for?</p>
         <p className='text-center'>It is said that Renan Araújo is a front-end developer, but in the past, he used to work as a Media Analyst.</p>
         <p className='text-center'>Some people also say that he started using Linux at the age of 11, and at the age of 13 he had a very good knowledge about Linux, BSD and Windows.</p>
         <p className='text-center'>At the age of 14 he was seen working fixing computers around his neighborhood.</p>
         <div className='h-[1px] w-[50%] m-auto bg-black mt-[.5rem] mb-[.3rem]'></div>
-        <p className='text-[1.2rem] italic font-semibold text-center'>A client said:</p>
+        <p className='text-[1.2rem] italic font-semibold text-center'>An old client said:</p>
         <p className='text-center'>"It is not possible he is only 14! My son who is 23 y/o couldnt fix it. The boy did a great job."</p>
-        <div className='h-[1px] w-[30%] m-auto bg-black mt-[.5rem] mb-[.3rem]'></div>
+        </div>
+
+        <div id='div-end-first' className='h-[1px] w-[30%] m-auto bg-black mt-[.5rem] mb-[.3rem]'></div>
+        
+        <div className='count-two'>
         <p className='text-[.9rem] text-center font-semibold mb-[.1rem]'>The benefits of sleeping well</p>
         <p className='text-[.8rem] mr-[.4rem]'>Good sleep improves your brain performance, mood, and health. Not getting enough quality sleep regularly raises the risk of many diseases and disorders. There range from heart disease and stroke to obesity and dementia. There's more to good sleep than just the hours spent in bed, says Dr. Marishka Brown.</p>
         <br></br>
@@ -28,8 +34,10 @@ const Content = () => {
         <br></br>
         <p className='text-[.8rem] mr-[.4rem]'>There are many things you can do to improve your sleep[...]</p>
         <p className='text-[.8rem] text-right mr-[.4rem]'>~quoted from NIH</p>
+        </div>
+
       </div>
-      <div>
+      <div className='count-three'>
         <p className='text-center border-2 bg-black text-white h-[2rem] flex justify-center items-center border-black'>Something important</p>
         <p className='ml-[.5rem] mt-[.3rem]'>Throughout the years he spent working as a Media Analyst, <em className='font-semibold'>Renan Araújo</em> had the opportunity to work with big companies in Brazil and abroad.</p><br></br>
         <p>He spent years creating marketing strategies, campaigns, and a lot more for schools, universities and other businesses around the world. Such as: Middlesex University Dubai, Red Balloon, Unimes, Amazing Explorers, Jeep Prime Rio and LifeSound.</p><br></br>

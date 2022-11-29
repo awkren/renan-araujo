@@ -16,3 +16,18 @@
   -webkit-filter: grayscale(1);
   filter: grayscale(1);
 }
+
+@media screen and (max-width:940px){
+  #content-two{
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  #what-do-i-know{
+    width: 100%;
+  }
+  #baruch-hashem{
+    width: 100%;
+  }
+}

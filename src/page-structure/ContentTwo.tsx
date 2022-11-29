@@ -13,7 +13,7 @@ import {GrMail} from 'react-icons/gr'
 const ContentTwo = () => {
   return (
     <div id='content-two' className='flex flex-row mt-[1rem]'>
-      <div className='text-center w-[40%]'>
+      <div id='what-do-i-know' className='text-center w-[40%]'>
         <div className='h-[2px] w-[50%] m-auto bg-black mt-[.5rem] mb-[.3rem]'></div>
         <p className='text-[2.5rem] uppercase font-semibold text-center leading-[2.5rem] mb-[1.5rem]'>What does <em className='font-bold not-italic'>renan</em> know?</p>
         <div className='can-i-do text-[2rem] gap-4 mb-[1rem]'>
@@ -27,7 +27,9 @@ const ContentTwo = () => {
           <div className='flex justify-center'><FaNodeJs title='NodeJs'/></div>
           <div className='flex justify-center'><SiWebpack title='Webpack'/></div>
         </div>
-        <div className='h-[1px] w-[50%] m-auto bg-black mt-[.5rem] mb-[.3rem]'></div>
+        <div className='h-[3px] w-[50%] m-auto bg-black mt-[.5rem] mb-[.3rem]'></div>
+        <div className='h-[2px] w-[30%] m-auto bg-black mt-[.5rem] mb-[.3rem]'></div>
+        <div className='h-[1px] w-[10%] m-auto bg-black mt-[.5rem] mb-[.3rem]'></div>
         <div className='flex flex-col gap-[1rem] mt-[1rem]'>
           <p className='text-left text-[1.2rem]'>We recently interviewed a person very close to him, and this person said to us that he loves learning new technologies and skills. Everything he knows now, he learned by himself, and about programming couldn't be different, he is putting a lot of effort to reach his goals, said this guy.</p>
           <p className='text-left text-[1.2rem]'>As we were investigating, we found out that Renan can do literally anything. If he's working with you, and you want something done, it doesn't matter what it is, just tell him, and he'll get it done.</p>
@@ -39,7 +41,7 @@ const ContentTwo = () => {
           <p>"The way of knowing the world is always being changed alongside the development of advanced technologies. Therefore, it brought a phenomenon that online information is more popular and accessible for an individual to recognize the world rather than the information sources like TV or newspaper."</p>
         </div>
       </div>
-      <div className='w-[35%] ml-[.4rem] border-r-2 border-l-2 border-black'>
+      <div id='baruch-hashem' className='w-[35%] ml-[.4rem] border-r-2 border-l-2 border-black'>
         <p className='text-[1rem] font-semibold italic leading-[2rem] bg-black text-white text-center'>"But you be strong and let your hands not slacken, for there is reward for your work."</p>
         <p className='bg-black text-white text-center'><em className='text-[.8rem] font-normal'>Divrei Hayamim II, 15:7.</em></p>
         <p className='text-[2rem] uppercase italic font-semibold text-center'>How to reach Renan Araújo</p>
