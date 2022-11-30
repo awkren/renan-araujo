@@ -97,11 +97,11 @@ const ContentTwo = () => {
               <p title='See website on the internet'><a href='https://cryptoview.vercel.app' rel='noreferrer' target='_blank'><FaGlobe/></a></p>
               <p title='Website code on GitHub'><a href='https://github.com/wuzue/cryptoview' rel='noreferrer' target='_blank'><FaGithub/></a></p>
             </div>
-            <div className='w-[90%] text-center m-auto'>
+            <div id='crypto-desc' className='w-[90%] text-center m-auto'>
               <p>As Renan himself described CryptoView, he said it's a cryptocurrency hub that lets you track the current price of the top 30 coins in market right now.</p>
               <p>Some people say the coins change when it loses popularity at the moment, and the price changes every 30 or 60 minutes, who knows...</p>
             </div>
-            <div className='h-[2px] w-[80%] m-auto bg-black mt-[.5rem] mb-[.3rem]'></div>
+            <div id='to-hide-man' className='h-[2px] w-[80%] m-auto bg-black mt-[.5rem] mb-[.3rem]'></div>
           </div>
           <div className='mt-[1rem] text-[1.2rem]'>
             <p className='text-center font-semibold'>FakePage</p>
@@ -111,11 +111,11 @@ const ContentTwo = () => {
               <p title='Website code on GitHub'><a href='https://github.com/wuzue/fake-page' rel='noreferrer' target='_blank'><FaGithub/></a></p>
             </div>
             
-            <div className='w-[90%] text-center m-auto'>
+            <div id='fake-desc' className='w-[90%] text-center m-auto'>
               <p>Detectives recently found out that this project was the very first Renan created using React. This landing page probably was created by Renan using another famous landing page as inspiration.</p>
               <p>"Despite being his first project, it's very good for a React beginner, right?" - said a Detective.</p>
             </div>
-            <div className='h-[2px] w-[80%] m-auto bg-black mt-[.5rem] mb-[.3rem]'></div>
+            <div id='to-hide-man' className='h-[2px] w-[80%] m-auto bg-black mt-[.5rem] mb-[.3rem]'></div>
           </div>
           
           <div className='mt-[1rem] text-[1.2rem]'>
@@ -125,7 +125,7 @@ const ContentTwo = () => {
               <p title='See website on the internet'><a href='https://cryptoview.vercel.app' rel='noreferrer' target='_blank'><FaGlobe/></a></p>
               <p title='Website code on GitHub'><a href='https://github.com/wuzue/cryptoview-server' rel='noreferrer' target='_blank'><FaGithub/></a></p>
             </div>
-            <div className='w-[90%] text-center m-auto'>
+            <div id='server-desc' className='w-[90%] text-center m-auto'>
               <p>"This is what people call back-end. That is the server for CryptoView, what runs but we can't see." - That's what a researcher said.</p>
               <p>The back-end for CryptoView handles the Login/Register and Auth system.</p>
             </div>
@@ -137,7 +137,7 @@ const ContentTwo = () => {
               <p title='See website on the internet'><a href='https://renan-araujo.vercel.app' rel='noreferrer' target='_blank'><FaGlobe/></a></p>
               <p title='Website code on GitHub'><a href='https://github.com/wuzue/renan-araujo' rel='noreferrer' target='_blank'><FaGithub/></a></p>
             </div>
-            <div className='w-[90%] text-center m-auto'>
+            <div id='old-desc' className='w-[90%] text-center m-auto'>
             <p>This is this project. You know why is it awesome? Renan Araújo said that React + Tailwind is a very simple combination, but when combined with imagination, creativity... BOOM - it doesn't explode, but - you can create things the world has never seen.</p>
             </div>
           </div>

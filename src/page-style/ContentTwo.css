@@ -30,4 +30,14 @@
   #baruch-hashem{
     width: 100%;
   }
+  #to-hide-man{
+    display: none;
+  }
+  .projects{
+    grid-template-columns: 1fr;
+  }
+  #crypto-desc, #fake-desc, #server-desc, #old-desc{
+    text-align: justify;
+  }
+  
 }
