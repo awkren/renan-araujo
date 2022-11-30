@@ -22,3 +22,9 @@ body{
     margin: auto;
   }
 }
+
+@media screen and (max-width:1500px){
+  body{
+    width: 100%;
+  }
+}
