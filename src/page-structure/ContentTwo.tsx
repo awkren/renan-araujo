@@ -35,7 +35,7 @@ const ContentTwo = () => {
           <p className='text-left text-[1.2rem]'>As we were investigating, we found out that Renan can do literally anything. If he's working with you, and you want something done, it doesn't matter what it is, just tell him, and he'll get it done.</p>
         </div>
         <div className='h-[3px] w-[100%] m-auto bg-black mt-[.5rem] mb-[.3rem]'></div>
-        <div>
+        <div className='italic'>
           <p className='font-semibold mb-[1rem]'>Why do people prefer TV over newspaper?</p>
           <p className='italic mb-[1rem]'>We asked Doctor Bill about people choosing to get 'cooked' information from the TV, instead of going for it, by reading a newspaper.</p>
           <p>"The way of knowing the world is always being changed alongside the development of advanced technologies. Therefore, it brought a phenomenon that online information is more popular and accessible for an individual to recognize the world rather than the information sources like TV or newspaper."</p>
@@ -46,7 +46,7 @@ const ContentTwo = () => {
         <p className='bg-black text-white text-center'><em className='text-[.8rem] font-normal'>Divrei Hayamim II, 15:7.</em></p>
         <p className='text-[2rem] uppercase italic font-semibold text-center'>How to reach Renan Araújo</p>
         <div className='h-[1px] w-[50%] m-auto bg-black mt-[.5rem] mb-[.3rem]'></div>
-        <div className='font-[500] text-[1.1rem] w-[90%] text-center m-auto italic'>
+        <div className='font-[500] text-[1.1rem] w-[90%] text-center m-auto'>
           <p className='mb-[.5rem]'>Some people mentioned some weird things, like e-mail, LinkedIn, etc...</p>
           <p>Whatever it may be, here's what they found:</p>
         </div>
@@ -70,13 +70,13 @@ const ContentTwo = () => {
         </div>
         {/* <div className='h-[3px] w-[100%] m-auto bg-black mt-[.5rem] mb-[.3rem]'></div> */}
 
-        <div>
+        <div className='italic'>
           <p className='uppercase font-bold italic text-[1.5rem] text-center bg-black text-white'>On creativity</p>
-          <p className='w-[95%] m-auto'>Creativity is defined as the tendency to generate or recognize ideas, alternatives, or possibilities that may be useful in solving problems, communicating with others, and entertaining ourselves and others.</p>
+          <p className='w-[95%] m-auto text-justify'>Creativity is defined as the tendency to generate or recognize ideas, alternatives, or possibilities that may be useful in solving problems, communicating with others, and entertaining ourselves and others.</p>
         </div>
 
         <div className='h-[1px] w-[80%] m-auto bg-black mt-[.5rem] mb-[.3rem]'></div>
-        <div className='text-center flex flex-col gap-[.4rem]'>
+        <div className='text-center w-[95%] flex flex-col gap-[.4rem] italic'>
           <p className='text-center font-semibold text-[1.2rem]'>Brazil won!</p>
           <p>Brazil national team won the game against Serbia.</p>
           <p>The final result was 2 - 0.</p>
