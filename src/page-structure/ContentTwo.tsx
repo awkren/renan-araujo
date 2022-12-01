@@ -99,7 +99,7 @@ const ContentTwo = () => {
 
           <div className='mt-[1rem] text-[1.2rem]'>
             <p className='text-center font-semibold'>CryptoView</p>
-            <img id='gray-img' className='w-[400px] border-[1px] border-black' src={cryptoView} alt='/'/>
+            <a href='https://cryptoview.vercel.app' rel='noreferrer' target='_blank'><img id='gray-img' className='w-[400px] border-[1px] border-black' src={cryptoView} alt='/'/></a>
             <div className='flex flex-row justify-evenly mt-[1rem] mb-[1rem]'>
               <p title='See website on the internet'><a href='https://cryptoview.vercel.app' rel='noreferrer' target='_blank'><FaGlobe/></a></p>
               <p title='Website code on GitHub'><a href='https://github.com/wuzue/cryptoview' rel='noreferrer' target='_blank'><FaGithub/></a></p>
@@ -112,7 +112,7 @@ const ContentTwo = () => {
           </div>
           <div className='mt-[1rem] text-[1.2rem]'>
             <p className='text-center font-semibold'>FakePage</p>
-            <img id='gray-img' className='w-[400px] border-[1px] border-black' src={fakePage} alt='/'/>
+            <a href='https://fake-page.vercel.app' rel='noreferrer' target='_blank'><img id='gray-img' className='w-[400px] border-[1px] border-black' src={fakePage} alt='/'/></a>
             <div className='flex flex-row justify-evenly mt-[1rem] mb-[1rem]'>
               <p title='See website on the internet'><a href='https://fake-page.vercel.app' rel='noreferrer' target='_blank'><FaGlobe/></a></p>
               <p title='Website code on GitHub'><a href='https://github.com/wuzue/fake-page' rel='noreferrer' target='_blank'><FaGithub/></a></p>
@@ -127,7 +127,7 @@ const ContentTwo = () => {
           
           <div className='mt-[1rem] text-[1.2rem]'>
             <p className='text-center font-semibold'>CryptoView Server</p>
-            <img id='gray-img' className='w-[400px] border-[1px] border-black' src={cryptoViewServer} alt='/'/>
+            <a href='cryptoview.vercel.app' rel='noreferrer' target='_blank'><img id='gray-img' className='w-[400px] border-[1px] border-black' src={cryptoViewServer} alt='/'/></a>
             <div className='flex flex-row justify-evenly mt-[1rem] mb-[1rem]'>
               <p title='See website on the internet'><a href='https://cryptoview.vercel.app' rel='noreferrer' target='_blank'><FaGlobe/></a></p>
               <p title='Website code on GitHub'><a href='https://github.com/wuzue/cryptoview-server' rel='noreferrer' target='_blank'><FaGithub/></a></p>
@@ -139,7 +139,7 @@ const ContentTwo = () => {
           </div>
           <div className='mt-[1rem] text-[1.2rem]'>
             <p className='text-center font-semibold'>Personal Website</p>
-            <img id='gray-img' className='w-[400px] border-[1px] border-black' src={renanAraujo} alt='/'/>
+            <a href='https://https://renan-araujo.vercel.app' rel='noreferrer' target='_blank'><img id='gray-img' className='w-[400px] border-[1px] border-black' src={renanAraujo} alt='/'/></a>
             <div className='flex flex-row justify-evenly mt-[1rem] mb-[1rem]'>
               <p title='See website on the internet'><a href='https://renan-araujo.vercel.app' rel='noreferrer' target='_blank'><FaGlobe/></a></p>
               <p title='Website code on GitHub'><a href='https://github.com/wuzue/renan-araujo' rel='noreferrer' target='_blank'><FaGithub/></a></p>
