@@ -5,18 +5,19 @@ const Header = () => {
   return (<>
 
     <div className='flex flex-row justify-between'>
-      <div id='left-title-text' className='w-[20%]'>
-        <p className='text-right'>this is some random text, if i were you, i wouldnt bother reading this, but if you want go aheada asdsad asdas dsa dsadasdasdasdasdasdas</p>
+      <div id='left-title-text' className='w-[20%] flex flex-col'>
+        <p className='text-center font-semibold font-[OldNewspaper]'><em className='underline not-italic'>WANTED</em> Java</p>
+        <p className='flex justify-center items-center text-justify font-[OldNewspaper] italic text-[.9rem]'>Guy was found half-alive at home; He said half of his body died from writing 'public static void main string args' everytime. </p>
       </div>
       <div id='title-div' className='flex text-center'>
         <p id='title-newspaper' className='text-[5rem] font-[Chomsky]'>The Front-End Developer</p>
       </div>
-      <div id='right-title-text' className='w-[20%]'> 
-        <p className=''>this is some random text, if i were you, i wouldnt bother reading this, but if you want go aheada asdsad asdas dsa dsadasdasdasdasdasdas</p>
+      <div id='right-title-text' className='w-[20%] flex flex-col justify-center'> 
+        <p className='flex justify-center items-center text-justify font-[OldNewspaper] italic text-[.9rem]'>"People saying that Arch is hard, never tried to install Gentoo" - Said a guy who waited for 2 weeks for his computer to compile Firefox.</p>
       </div>
     </div>
     <div className='h-[.2rem] bg-black'></div>
-    <div id='below-title' className='flex flex-row justify-evenly'>
+    <div id='below-title' className='flex flex-row justify-evenly text-[.9rem] font-[OldNewspaper]'>
       <p className=''>Rio de Janeiro</p>
       <p>Brazil</p>
       <p>Flamengo</p>

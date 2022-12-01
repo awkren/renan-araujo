@@ -46,3 +46,7 @@
     grid-template-columns: 1fr 1fr;
   }
 }
+
+.projects img {
+  box-shadow: 3px 3px 1px black;
+}

@@ -90,6 +90,13 @@ const ContentTwo = () => {
         <p className='text-[3rem] font-bold uppercase leading-[3.5rem] text-center'> we found a few projects that renan proudly built</p>
         {/* <p className='text-[.8rem] italic'>P.S. We used future technology to print colored images</p> */}
         <div className='projects'>
+
+        {/* <div className='aka'>  
+          <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <path fill="#E0C9A6" d="M6,-21.1C8.6,-8.8,12.1,-8.9,27.8,-7.5C43.6,-6,71.6,-3,71.9,0.1C72.1,3.3,44.6,6.6,30.2,10.4C15.8,14.3,14.6,18.7,11.7,22C8.9,25.3,4.4,27.6,2.1,23.9C-0.2,20.2,-0.4,10.6,-9.1,10.7C-17.9,10.8,-35.2,20.5,-39.1,20.4C-43,20.2,-33.4,10.1,-28.5,2.8C-23.5,-4.4,-23.2,-8.8,-22.7,-14.8C-22.2,-20.7,-21.4,-28.2,-17.6,-39.8C-13.7,-51.4,-6.9,-67,-2.6,-62.6C1.7,-58.1,3.4,-33.4,6,-21.1Z" transform="translate(100 100)" />
+          </svg>
+        </div> */}
+
           <div className='mt-[1rem] text-[1.2rem]'>
             <p className='text-center font-semibold'>CryptoView</p>
             <img id='gray-img' className='w-[400px] border-[1px] border-black' src={cryptoView} alt='/'/>
